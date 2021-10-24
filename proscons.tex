@@ -1,0 +1,130 @@
+\documentclass[index]{subfiles}
+
+\begin{document}
+
+% See https://www.overleaf.com/learn/latex/How_TeX_macros_actually_work%3A_Part_4
+\def\columntwo#1#2{
+    \begin{paracol}{2}
+        \begin{center}Pros\end{center}
+        \begin{itemize}
+            #1
+        \end{itemize}
+
+        \switchcolumn
+
+        \begin{center}Cons\end{center}
+        \begin{itemize}
+            #2
+        \end{itemize}
+
+    \end{paracol}
+}
+
+\subsection*{Harvard Step Test}
+
+\columntwo{
+    \item There is little amount of equipment needed
+    \item Sub-maximal test, which doesn't require maxinum strength, so novices can participate
+    \item Measures physiological condition (heart rate), which is less subject to things like motivation and pacing
+}{
+    \item Doesn't measure true strength, but rather pulse, and uses it to predict aerobic capacity
+    \item Doesn't take into consideration individual differences in hearts
+    \item Innacurate measuring of heart rate may cause huge errors
+    \item Could become a maximal test if the individual does not move around much and cannot step onto the bench
+}
+
+\subsection*{Stork Stand}
+
+\columntwo {
+    \item There is no equipment needed
+    \item Instructions are simple and can be conducted anywhere
+}{
+    \item Person needed to administer the test
+    \item The test may not be reliable if the individual has practice balancing on one leg
+    \item The reliability of the test is questionable because environment could have an impact
+}
+
+\subsection*{Maximum Push-ups}
+
+\columntwo{
+    \item There is no equipment needed
+    \item Instructions are simple and can be conducted anywhere
+    \item Maximal test, meaning that it's not a prediction
+}{
+    \item It's a maximal test, so motivation and pacing may affect the results, subject may be injured
+    \item Not done in a lab, so the environment, such as the material and rigidity of the floor, may affect results
+}
+
+\subsection*{Sit and Reach}
+
+\columntwo{
+    \item The instructions are simple and the test may be conducted any where
+}{
+    \item The subject may not be able to reach the box, or go over the length of the box
+    \item Requires a marked box
+    \item Biological differences are not accounted for, the individual may have disproportionately large arms compared to legs, or vice-versa.
+    \item Subject may be affected by motivation to push through pain, or get injured
+}
+
+\subsection*{Illinois Agility Test}
+
+\columntwo{
+    \item Little equipment needed, subject does not need a huge amount of training to complete the test
+}{
+    \item The test may be unreliable if the subject gains experience with the test
+    \item The validity of the test is questionable because the individual's speed has a large impact on agility
+    \item Is a maximal test, so subject may be affected by motivation and pacing
+    \item It takes a long time to itemize things
+    \item May become a test of strength if subject is unable to get off the ground
+    \item The environment of the test, such as material of shoes, weather, or material of track, may have an impact on the reliability of the test
+}
+
+\subsection*{35-meter Dash}
+
+\columntwo{
+    \item There is little equipment needed, subject does not need a huge amount of training to complete the test
+    \item The instructions are simple
+}{
+    \item Maximal test, so subject may be affected by motivation and pacing
+    \item The validity of the test is questionable, because in a 35-second sprint reaction time plays a huge role
+    \item The reliability of the test is also questionable, because the subject may be more experienced in take off and acceleration.
+    \item The environment of the test, such as material of shoes, weather, or material of track, may have an impact on the reliability of the test
+}
+
+\subsection*{Ruler Drop}
+
+\columntwo{
+    \item There is little equipment needed, subject does not need a huge amount of training to complete the test
+    \item The instructions are simple
+}{
+    \item The reliability of the test is questionable, because the subject may become more accustomed to the ruler after a while. The subject could also get lucky by preemtively closing their hand. The angle of the ruler and height of drop may also vary
+    \item Requires another person to administer the test
+}
+
+\subsection*{Ball toss}
+
+\columntwo{
+    \item Little equipment needed, subject does not need a huge amount of training to complete the test
+    \item Instructions are simple
+    \item Sub-maximal test, number of ball tosses is a prediction of what coordination is
+}{
+    \item The environment, such as the material of the wall
+    \item The reliability of the test is \textbf{extremely} questionable. First, the ball tossing skill of the individual could improve over time, launching the ball at an optimal height or angle could be hugely beneficial.
+    \item The validity of the test is questionable, because if the subject misses catching the ball it becomes a test of speed to chase after the ball, or if the subject is able to throw the ball faster, it becomes a test of strength.
+    \item There is no way to record half a ball caught, say when the time limit is about to be reached
+}
+
+\subsection*{Vertical Jump (Sergeant Jump Test)}
+
+
+\columntwo{
+    \item Required equipment readily available
+    \item Little training required to perform the test
+    \item The instructions are simple
+}{
+    \item Maximal test, so motivation may affect the amount of distance jumped
+    \item The reliability of the test is questionable since over time the subject may become more accustomed to standing jump techniques
+    \item Subject may be injured from maximal jumping tests
+}
+
+\end{document}
